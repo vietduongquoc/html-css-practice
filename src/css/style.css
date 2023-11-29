@@ -126,19 +126,25 @@ header {
 
 /* Category */
 
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .category-heading {
   color: #000;
   font-family: Manrope;
   font-size: 36px;
   font-weight: 800;
   line-height: normal;
-  padding: 120px 0px 37px 506px;
+  padding: 120px 0px 37px 515px;
 }
 
 .category-dcrs {
   display: flex;
   align-items: center;
-  padding: 0px 223px 79px 223px;
+  padding: 1px 206px 2px 223px;
   width: 1440px;
   color: #000;
   text-align: center;
@@ -153,13 +159,112 @@ header {
 .category-post {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 79px;
-  column-gap: 124px;
-  padding: 0px 0px 140px 144px;
-  margin-right: 365px;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 89px;
+  padding-top: 39px;
+  width: 1153px;
+  height: 726px;
 }
 
-.category-post-content {
+.category-post-heading-icon-1 {
+  color: #000;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding: 8px 5px 8px 18px;
+}
+
+.category-post1-icon-1 {
+  text-align: right;
+  margin-bottom: -44px;
+  padding-right: 103px;
+}
+
+.category-post-icon-1 {
+  padding: 0px 10px 0px 119px;
+}
+
+.category-post-content-1 {
+  padding: 0px 0px 1px 10px;
+  color: #000;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  width: 298px;
+  height: 84px;
+  flex-shrink: 0;
+  line-height: 28px;
+  margin-left: 3px;
+}
+
+.category-post-heading-icon-2 {
+  color: #000;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding: 9px 0px 9px 5px;
+}
+
+.category-post2-icon-2 {
+  margin-bottom: -52px;
+  padding-left: 117px;
+  margin-top: 7px;
+}
+
+.category-post-icon-2 {
+  padding: 0px 10px 0px 122px;
+}
+
+.category-post-content-2 {
+  padding: 0px 10px 1px 14px;
+  color: #000;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  width: 316px;
+  height: 84px;
+  flex-shrink: 0;
+  line-height: 28px;
+}
+
+
+.category-post-heading-icon-3 {
+  color: #000;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding: 9px 5px 8px 4px;
+}
+
+.category-post-icon-3 {
+  padding: 0px 10px 0px 110px;
+}
+
+.category-post3-icon-3 {
+  text-align: right;
+  margin-bottom: -50px;
+  padding-right: 98px;
+  margin-top: 7px;
+}
+
+.category-post-content-3 {
+  padding: 0px 4px 1px 2px;
   color: #000;
   text-align: center;
   font-family: Manrope;
@@ -172,69 +277,6 @@ header {
   line-height: 28px;
 }
 
-.category-post-heading-icon-1 {
-  color: #000;
-  text-align: center;
-  font-family: Manrope;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-  padding: 10px 5px 8px 1px;
-}
-
-.category-post1-icon-1 {
-  text-align: right;
-  margin-bottom: -43px;
-  padding-right: 110px;
-}
-
-.category-post-icon-1 {
-  padding: 0px 10px 0px 110px;
-}
-
-.category-post-heading-icon-2 {
-  color: #000;
-  text-align: center;
-  font-family: Manrope;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-  padding: 9px 5px 9px 5px;
-}
-
-.category-post2-icon-2 {
-  margin-bottom: -53px;
-  padding-left: 106px;
-  margin-top: 10px;
-}
-
-.category-post-icon-2 {
-  padding: 0px 10px 0px 110px;
-}
-
-.category-post-heading-icon-3 {
-  color: #000;
-  text-align: center;
-  font-family: Manrope;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-  padding: 10px 5px 8px 7px;
-}
-
-.category-post-icon-3 {
-  padding: 0px 10px 0px 114px;
-}
-
-.category-post3-icon-3 {
-  text-align: right;
-  margin-bottom: -50px;
-  padding-right: 94px;
-  margin-top: 7px;
-}
 
 .category-post-heading-icon-4 {
   color: #000;
@@ -244,18 +286,34 @@ header {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  padding: 4px 5px 8px 3px;
+  padding: 3px 5px 8px 16px;
 }
 
 .category-post-icon-4 {
-  padding: 25px 10px 0px 110px;
+  padding: 2px 10px 0px 117px;
 }
 
 .category-post4-icon-4 {
-  margin-bottom: -72px;
-  padding-left: 109px;
+  margin-bottom: -55px;
+  padding-left: 117px;
   margin-top: 14px;
 }
+
+.category-post-content-4 {
+  padding: 0px 00px 1px 10px;
+  color: #000;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  width: 298px;
+  height: 88px;
+  flex-shrink: 0;
+  line-height: 28px;
+}
+
 
 .category-post-heading-icon-5 {
   color: #000;
@@ -265,17 +323,32 @@ header {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  padding: 0px 5px 10px 3px;
+  padding: 0px 5px 7px 8px;
 }
 
 .category-post-icon-5 {
-  padding: 6px 10px 9px 112px;
+  padding: 6px 10px 1px 121px;
 }
 
 .category-post5-icon-5 {
   text-align: right;
   margin-bottom: -45px;
-  padding-right: 103px;
+  padding-right: 111px;
+}
+
+.category-post-content-5 {
+  padding: 0px 10px 1px 14px;
+  color: #000;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  width: 316px;
+  height: 102px;
+  flex-shrink: 0;
+  line-height: 28px;
 }
 
 .category-post-heading-icon-6 {
@@ -286,18 +359,34 @@ header {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  padding: 0px 5px 10px 8px;
+  padding: 0px 5px 10px 0px;
 }
 
 .category-post-icon-6 {
-  padding: 14px 10px 10px 116px;
+  padding: 14px 10px 10px 113px;
 }
 
 .category-post6-icon-6 {
   text-align: right;
   margin-bottom: -45px;
-  padding-right: 117px;
+  padding-right: 122px;
 }
+
+.category-post-content-6 {
+  padding: 0px 5px 1px 2px;
+  color: #000;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  width: 298px;
+  height: 91px;
+  flex-shrink: 0;
+  line-height: 28px;
+}
+
 
 /* About */
 
@@ -502,7 +591,7 @@ header {
 .content-sponner {
   padding: 16px 157px 59px 1px;
   background-color: var(--text-gray-100, #f4f5f7);
-  width:100%;
+  width: 100%;
 }
 
 .title-sponner {
