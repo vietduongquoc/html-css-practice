@@ -58,7 +58,7 @@ header {
   font-size: 14px;
   justify-content: center;
   font-weight: 900;
-  padding: 1px 10px 0px 1px;
+  padding: 1px 0px 0px 469px;
 }
 
 .link {
@@ -155,7 +155,7 @@ header {
   flex-wrap: wrap;
   row-gap: 79px;
   column-gap: 124px;
-  padding: 0px 320px 140px 144px;
+  padding: 0px 100px 140px 144px;
 }
 
 .category-post-content {
@@ -303,7 +303,7 @@ header {
 
 .about-background {
   background-image: url(/src/assets/images/about/about-bg-img/bg-img.png);
-  width: 1440px;
+  width: 100vw;
   background-color: #f84648;
   background-repeat: no-repeat;
   background-size: cover;
@@ -384,7 +384,7 @@ header {
 
 .product1 {
   display: flex;
-  padding: 158px 582px 113px 1px;
+  padding: 157px 102px 113px 1px;
 }
 
 .content-product1 {
@@ -415,7 +415,7 @@ header {
   background: #f84646;
   display: flex;
   width: 160px;
-  padding: 16px;
+  padding: 17px 21px 16px 16px;
   justify-content: center;
   border: none;
   color: #fff;
@@ -439,7 +439,7 @@ header {
 
 .product2 {
   display: flex;
-  padding-bottom: 151px;
+  padding-bottom: 150px;
 }
 
 .content-product2 {
@@ -453,7 +453,7 @@ header {
   font-style: normal;
   font-weight: 700;
   line-height: 76px;
-  padding: 0px 350px 39px 0px;
+  padding: 1px 10px 39px 0px;
 }
 
 .dcrs-product2 {
@@ -463,7 +463,7 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  padding: 0px 490px 80px 0px;
+  padding: 0px 16px 80px 0px;
 }
 
 .button-product2 {
@@ -471,7 +471,7 @@ header {
   background: #f84646;
   display: flex;
   width: 160px;
-  padding: 16px;
+  padding: 16px 21px 16px 16px;
   justify-content: center;
   border: none;
   color: #fff;
@@ -671,7 +671,7 @@ header {
 }
 
 .icon1-contact {
-  padding: 159px 548px 1px 80px;
+  padding: 159px 1px 1px 14px;
 }
 
 .title-contact {
@@ -682,7 +682,7 @@ header {
   font-style: normal;
   font-weight: 800;
   line-height: 32px;
-  padding: 9px 468px 20px 1px;
+  padding: 9px 1px 20px 14px;
 }
 
 .dcrs-contact {
@@ -693,7 +693,7 @@ header {
   font-style: normal;
   font-weight: 500;
   line-height: 32px;
-  padding: 0px 476px 30px 10px;
+  padding: 0px 1px 30px 15px;
 }
 
 .button-contact {
@@ -707,7 +707,7 @@ header {
   font-style: normal;
   font-weight: 600;
   line-height: 20px;
-  margin-right: 466px;
+  margin-left: 12px;
   cursor: pointer;
 }
 
@@ -721,7 +721,7 @@ header {
 footer {
   background: #f8464a;
   padding: 8px 15px 20px 25px;
-  width: 1440px;
+  width: 100vw;
   background-size: cover;
 }
 
