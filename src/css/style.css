@@ -6,7 +6,7 @@ header {
   position: relative;
   background-image: url("/src/assets/images/header/header.background.png");
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-size: cover;
 }
 
 * {
@@ -508,7 +508,7 @@ header {
 }
 
 .heading-sponner {
-  width: 1281px;
+  width: 100vw;
 }
 
 .title-sponner {
