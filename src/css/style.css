@@ -504,11 +504,7 @@ header {
   flex-direction: column;
   align-items: flex-start;
   background-color: var(--text-gray-100, #f4f5f7);
-  width: 1442px;
-}
-
-.heading-sponner {
-  width: 100vw;
+  width:100vw;
 }
 
 .title-sponner {
