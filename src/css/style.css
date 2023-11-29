@@ -46,11 +46,9 @@ header {
 
 .nav-header {
   padding-top: 44px;
-  /* padding-left: 1px; */
 }
 
 .nav-links {
-  /* width: 1319px; */
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -93,6 +91,7 @@ header {
   font-style: normal;
   background-color: #f84646;
   border: none;
+  cursor: pointer;
 }
 
 .button-header:hover {
@@ -377,6 +376,7 @@ header {
   width: 32px;
   height: 32px;
   margin-top: 15px;
+  cursor: pointer;
 }
 
 /* Product */
@@ -422,6 +422,7 @@ header {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.3px;
+  cursor: pointer;
 }
 
 .button-product1:hover {
@@ -434,7 +435,6 @@ header {
   padding: 3px 3px 3px 0px;
   flex-shrink: 0;
   border-radius: 8px;
-  /* margin-right: 99px; */
 }
 
 .product2 {
@@ -478,6 +478,7 @@ header {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.3px;
+  cursor: pointer;
 }
 
 .button-product2:hover {
@@ -607,7 +608,7 @@ header {
 
 }
 
-.logo3-sp {
+.logo-3-3-sponner {
   display: flex;
   width: 167px;
   padding: 10px;
@@ -621,12 +622,12 @@ header {
   font-style: normal;
   font-weight: 600;
   line-height: 32px;
-  /* 200% */
   margin-top: 21px;
   margin-left: 1px;
+  cursor: pointer;
 }
 
-.logo-3-3-sponner {
+.click-logo-3-3-sponner {
   gap: 10px;
   width: 16px;
   height: 16px;
@@ -707,6 +708,7 @@ header {
   font-weight: 600;
   line-height: 20px;
   margin-right: 466px;
+  cursor: pointer;
 }
 
 .button-contact:hover {
