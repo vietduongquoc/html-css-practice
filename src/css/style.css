@@ -155,8 +155,8 @@ header {
   flex-wrap: wrap;
   row-gap: 79px;
   column-gap: 124px;
-  padding: 0px 450px 140px 144px;
-  /* width: 100% */
+  padding: 0px 0px 140px 144px;
+  margin-right: 365px;
 }
 
 .category-post-content {
