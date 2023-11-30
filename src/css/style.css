@@ -407,8 +407,9 @@ header {
   font-style: normal;
   font-weight: 800;
   line-height: 64px;
-  padding: 67px 20px 3px 20px;
-  width: 1440px;
+  padding: 67px 99px 3px 299px;
+  margin-right: 80px;
+  width: 1440px; 
 }
 
 .about-dcrs {
@@ -473,8 +474,10 @@ header {
 /* Product */
 
 .content-product{
+  width: 1440px;
   width: 1420px;
 }
+
 
 .product1 {
   display: flex;
