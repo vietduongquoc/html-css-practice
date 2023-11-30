@@ -868,8 +868,42 @@ footer {
   flex-wrap: nowrap;
   padding-top: 26px;
   justify-content: space-between;
+  
 }
 
 .link-logo {
   padding: 0 6px;
+  cursor: pointer;
+  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
