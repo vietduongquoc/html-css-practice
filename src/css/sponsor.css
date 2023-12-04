@@ -16,7 +16,6 @@
   font-style: normal;
   font-weight: 800;
   line-height: 64px;
-
 }
 
 .description-sponsor {
@@ -118,6 +117,9 @@
   margin-top: 21px;
   margin-left: 1px;
   cursor: pointer;
+}
+.logo-tumunugor-sponsor:hover{
+  color: blue;
 }
 
 .click-logo-tumunugor-sponsor {
