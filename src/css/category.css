@@ -5,15 +5,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* color: #000; */
+  font-family: Manrope;
 }
 
 .category-heading {
-  color: #000;
-  font-family: Manrope;
   font-size: 36px;
   font-weight: 800;
   line-height: normal;
-  padding: 120px 0px 37px 515px;
+  padding: 120px 0px 37px 15px;
 }
 
 .category-description {
@@ -21,9 +21,7 @@
   align-items: center;
   padding: 1px 206px 2px 223px;
   width: 1440px;
-  color: #000;
   text-align: center;
-  font-family: Manrope;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -43,9 +41,7 @@
 }
 
 .category-post-heading-icon-file {
-  color: #000;
   text-align: center;
-  font-family: Manrope;
   font-size: 24px;
   font-style: normal;
   font-weight: 800;
@@ -65,9 +61,7 @@
 
 .category-post-content-file {
   padding: 0px 0px 1px 10px;
-  color: #000;
   text-align: center;
-  font-family: Manrope;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -80,9 +74,7 @@
 }
 
 .category-post-heading-icon-star {
-  color: #000;
   text-align: center;
-  font-family: Manrope;
   font-size: 24px;
   font-style: normal;
   font-weight: 800;
@@ -102,9 +94,7 @@
 
 .category-post-content-star {
   padding: 0px 10px 1px 14px;
-  color: #000;
   text-align: center;
-  font-family: Manrope;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -117,9 +107,7 @@
 
 
 .category-post-heading-icon-crown {
-  color: #000;
   text-align: center;
-  font-family: Manrope;
   font-size: 24px;
   font-style: normal;
   font-weight: 800;
@@ -140,9 +128,7 @@
 
 .category-post-content-crown {
   padding: 0px 4px 1px 2px;
-  color: #000;
   text-align: center;
-  font-family: Manrope;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -154,9 +140,7 @@
 
 
 .category-post-heading-icon-chartbar {
-  color: #000;
   text-align: center;
-  font-family: Manrope;
   font-size: 24px;
   font-style: normal;
   font-weight: 800;
@@ -176,9 +160,7 @@
 
 .category-post-content-chartbar {
   padding: 0px 00px 1px 10px;
-  color: #000;
   text-align: center;
-  font-family: Manrope;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -191,9 +173,7 @@
 
 
 .category-post-heading-icon-chartpieslice {
-  color: #000;
   text-align: center;
-  font-family: Manrope;
   font-size: 24px;
   font-style: normal;
   font-weight: 800;
@@ -213,9 +193,7 @@
 
 .category-post-content-chartpieslice {
   padding: 0px 10px 1px 14px;
-  color: #000;
   text-align: center;
-  font-family: Manrope;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -227,9 +205,7 @@
 }
 
 .category-post-heading-icon-figmalogo {
-  color: #000;
   text-align: center;
-  font-family: Manrope;
   font-size: 24px;
   font-style: normal;
   font-weight: 800;
@@ -249,9 +225,7 @@
 
 .category-post-content-figmalogo {
   padding: 0px 5px 1px 2px;
-  color: #000;
   text-align: center;
-  font-family: Manrope;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;

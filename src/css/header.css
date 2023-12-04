@@ -21,7 +21,6 @@ header {
   
   .content-title {
     width: 665px;
-    color: #000;
     font-family: Manrope;
     font-size: 64px;
     font-style: normal;
@@ -33,7 +32,6 @@ header {
   .content-description {
     width: 650px;
     height: 99px;
-    color: #000;
     font-family: Manrope;
     font-size: 20px;
     font-style: normal;
@@ -62,11 +60,11 @@ header {
   
   .links {
     text-decoration: none;
-    color: #000;
     padding: 10px;
     border-radius: 8px;
     font-size: 14px;
     font-weight: 700;
+    color: #000;
   }
   
   .links:hover {
@@ -79,7 +77,6 @@ header {
   .link {
     text-decoration: none;
     color: #000;
-    /* padding: 10px; */
     border-radius: 8px;
     font-size: 14px;
     font-weight: 700;
