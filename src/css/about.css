@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 .about-background {
-  background-image: url(/src/assets/images/about/about-bg-img/bg-img.png);
+  background-image: url(/src/assets/images/about/about-bg-img.png);
   width: 100vw;
   background-color: #f84648;
   background-repeat: no-repeat;
