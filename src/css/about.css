@@ -3,7 +3,7 @@
 
 .about-background {
   background-image: url(/src/assets/images/about/about-bg-img.png);
-  width: 100vw;
+  width: 100%;
   background-color: #f84648;
   background-repeat: no-repeat;
   background-size: cover;
