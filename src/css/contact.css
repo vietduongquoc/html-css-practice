@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 .content-contact {
-  /* padding-top: 5px; */
   padding-bottom: 160px;
   background: #fff;
   text-align: center;
+  font-family: Manrope;
+  font-style: normal;
 }
 
 .icon-contact {
@@ -13,20 +14,14 @@
 }
 
 .title-contact {
-  text-align: center;
-  font-family: Manrope;
   font-size: 48px;
-  font-style: normal;
   font-weight: 800;
   line-height: 32px;
   padding: 10px 1px 20px 0px;
 }
 
 .description-contact {
-  text-align: center;
-  font-family: Manrope;
   font-size: 18px;
-  font-style: normal;
   font-weight: 500;
   line-height: 32px;
   padding: 0px 1px 29px 0px;
@@ -38,9 +33,7 @@
   border-radius: 8px;
   background: #f84646;
   border: none;
-  font-family: Manrope;
   font-size: 24px;
-  font-style: normal;
   font-weight: 600;
   line-height: 20px;
   cursor: pointer;
