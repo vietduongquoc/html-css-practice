@@ -145,7 +145,7 @@
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  padding: 3px 5px 8px 16px;
+  padding: 3px 5px 9px 21px;
 }
 
 .category-post-icon-chartbar {
@@ -159,13 +159,13 @@
 }
 
 .category-post-content-chartbar {
-  padding: 0px 00px 1px 10px;
+  padding: 0 0 1px 10px;
   text-align: center;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.2px;
-  width: 298px;
+  width: 302px;
   height: 88px;
   flex-shrink: 0;
   line-height: 28px;
@@ -178,11 +178,12 @@
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  padding: 0px 5px 7px 8px;
+  padding: 0px 5px 0px 8px;
 }
 
 .category-post-icon-chartpieslice {
   padding: 6px 10px 1px 121px;
+  margin-bottom: 10px;
 }
 
 .category-post-icon-red {
@@ -192,7 +193,7 @@
 }
 
 .category-post-content-chartpieslice {
-  padding: 0px 10px 1px 14px;
+  padding: 6px 10px 1px 14px;
   text-align: center;
   font-size: 18px;
   font-style: normal;
