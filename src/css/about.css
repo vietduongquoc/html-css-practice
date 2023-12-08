@@ -12,13 +12,14 @@
   font-feature-settings: "liga" off;
   font-family: Manrope;
   font-style: normal;
+  margin: 0 auto;
+  padding: 67px 0;
 }
 
 .about-title {
   font-size: 48px;
   font-weight: 800;
   line-height: 64px;
-  padding-top: 67px;
 }
 
 .about-description {
