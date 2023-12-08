@@ -63,6 +63,16 @@ header {
   color: #000;
 }
 
+li:last-child {
+  text-decoration: none;
+  color: #000;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 20px;
+  padding-top: 0;
+}
+
 .links:hover {
   color: #fff;
   padding: 10px;
@@ -70,22 +80,6 @@ header {
   font-weight: 700;
 }
 
-.link {
-  text-decoration: none;
-  color: #000;
-  border-radius: 8px;
-  font-size: 14px;
-  font-weight: 700;
-  margin-left: 10px;
-  padding: 10px 20px
-}
-
-.link:hover {
-  color: #fff;
-  padding: 10px;
-  background-color: #f84646;
-  font-weight: 700;
-}
 
 .button-header {
   margin: 7px 8px 6px 0px;
