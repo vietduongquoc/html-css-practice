@@ -12,18 +12,14 @@
   font-feature-settings: "liga" off;
   font-family: Manrope;
   font-style: normal;
-}
-
-/* .about-heading {
-  width: 836px;
   margin: 0 auto;
-} */
+  padding: 67px 0;
+}
 
 .about-title {
   font-size: 48px;
   font-weight: 800;
   line-height: 64px;
-  padding-top: 67px;
 }
 
 .about-description {
@@ -35,7 +31,6 @@
 
 .about-content {
   display: flex;
-  /* flex-wrap: wrap; */
   font-feature-settings: "liga" off;
   font-size: 18px;
   font-weight: 700;
