@@ -17,8 +17,6 @@
 }
 
 .category-description {
-  display: flex;
-  align-items: center;
   padding: 1px 206px 2px 223px;
   width: 1440px;
   text-align: center;
