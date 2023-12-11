@@ -15,7 +15,8 @@
   flex-direction: column;
   gap: 64px;
 }
-.about-heading{
+
+.about-heading {
   gap: 8px;
   display: flex;
   flex-direction: column;
@@ -35,7 +36,7 @@
   display: flex;
   gap: 49px;
   justify-content: center;
-  margin: 0  auto;
+  margin: 0 auto;
 }
 
 .about-post-content {
@@ -48,8 +49,8 @@
   align-items: center;
 }
 
-.about-post-content > p {
-  text-align:start;
+.about-post-content>p {
+  text-align: start;
   line-height: 31px;
 }
 
@@ -74,5 +75,3 @@
   height: 32px;
   cursor: grab;
 }
-
-

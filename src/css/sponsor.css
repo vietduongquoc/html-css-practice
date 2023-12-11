@@ -9,11 +9,13 @@
   display: flex;
   flex-direction: column;
 }
+
 .heading-sponsor {
   display: flex;
   gap: 5px;
   flex-direction: column;
 }
+
 .title-sponsor {
   color: var(--text-gray-900, #18191f);
   text-align: center;
@@ -95,6 +97,7 @@
   margin-left: 1px;
   cursor: pointer;
 }
+
 .logo-tumunugor-sponsor:hover {
   color: blue;
 }

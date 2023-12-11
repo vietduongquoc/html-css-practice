@@ -60,7 +60,7 @@ header {
   color: #000;
 }
 
-.nav-links > li:last-child {
+.nav-links>li:last-child {
   text-decoration: none;
   color: #000;
   border-radius: 8px;
