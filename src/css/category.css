@@ -131,7 +131,9 @@
   flex-shrink: 0;
   line-height: 28px;
 }
-
+.update {
+  background-color: #fff;
+}
 
 .category-post-heading-icon-chartbar {
   text-align: center;
