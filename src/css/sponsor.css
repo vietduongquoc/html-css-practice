@@ -5,23 +5,22 @@
   padding: 60px 0;
   background-color: var(--text-gray-100, #f4f5f7);
   width: 100%;
-  font-family: Manrope;
-  font-style: normal;
   gap: 48px;
   display: flex;
   flex-direction: column;
 }
+
 .heading-sponsor {
   display: flex;
   gap: 5px;
   flex-direction: column;
 }
+
 .title-sponsor {
   color: var(--text-gray-900, #18191f);
   text-align: center;
   font-feature-settings: "salt" on, "liga" off;
   font-size: 48px;
-  font-weight: 800;
   line-height: 64px;
 }
 
@@ -35,10 +34,10 @@
 }
 
 .logo-sponsor {
+  margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 24px;
+  justify-content: space-around;
 }
 
 .background-logo-sponsor {
@@ -98,6 +97,7 @@
   margin-left: 1px;
   cursor: pointer;
 }
+
 .logo-tumunugor-sponsor:hover {
   color: blue;
 }
