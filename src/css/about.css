@@ -41,7 +41,7 @@
 
 .about-post-content {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   gap: 49px;
   width: max-content;
   font-size: 18px;
@@ -71,7 +71,7 @@
 }
 
 .about-icon {
-  width: 32px;
-  height: 32px;
+  /* width: 32px;
+  height: 32px; */
   cursor: grab;
 }
